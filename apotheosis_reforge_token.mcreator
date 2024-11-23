@@ -1,0 +1,188 @@
+{
+  "mod_elements": [
+    {
+      "name": "HeirloomToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heirloom_token",
+      "metadata": {
+        "files": [
+          "src/main/java/net/yrit/apotheosisreforgetoken/item/HeirloomTokenItem.java",
+          "src/main/resources/assets/apotheosis_reforge_token/models/item/heirloom_token.json"
+        ]
+      }
+    },
+    {
+      "name": "HeirloomTokenRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heirloom_token_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/yrit/apotheosisreforgetoken/procedures/HeirloomTokenRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TokenCreative",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "token_creative",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ArtifactToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact_token",
+      "metadata": {
+        "files": [
+          "src/main/java/net/yrit/apotheosisreforgetoken/item/ArtifactTokenItem.java",
+          "src/main/resources/assets/apotheosis_reforge_token/models/item/artifact_token.json"
+        ]
+      }
+    },
+    {
+      "name": "ArtifactTokenRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact_token_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/yrit/apotheosisreforgetoken/procedures/ArtifactTokenRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AncientToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_token",
+      "metadata": {
+        "files": [
+          "src/main/java/net/yrit/apotheosisreforgetoken/item/AncientTokenItem.java",
+          "src/main/resources/assets/apotheosis_reforge_token/models/item/ancient_token.json"
+        ]
+      }
+    },
+    {
+      "name": "AncientTokenRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_token_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/yrit/apotheosisreforgetoken/procedures/AncientTokenRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EsotericToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "esoteric_token",
+      "metadata": {
+        "files": [
+          "src/main/java/net/yrit/apotheosisreforgetoken/item/EsotericTokenItem.java",
+          "src/main/resources/assets/apotheosis_reforge_token/models/item/esoteric_token.json"
+        ]
+      }
+    },
+    {
+      "name": "EsotericTokenRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "esoteric_token_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/yrit/apotheosisreforgetoken/procedures/EsotericTokenRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.apotheosis_reforge_token.ancient_token": "Ancient Token",
+      "item.apotheosis_reforge_token.esoteric_token": "Esoteric Token",
+      "item.apotheosis_reforge_token.artifact_token": "Artifact Token",
+      "item.apotheosis_reforge_token.heirloom_token": "Heirloom Token",
+      "item_group.apotheosis_reforge_token.token_creative": "Apotheosis Reforge Tokens"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "apotheosis_reforge_token",
+    "modName": "Apotheosis Reforge Token",
+    "version": "1.0.0",
+    "description": "Needs Apotheotic Additions to work.",
+    "author": "yrit",
+    "websiteURL": "https://theburrito.,em",
+    "license": "Ace3 Style BSD",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.yrit.apotheosisreforgetoken"
+  },
+  "mcreatorVersion": 202400342716
+}

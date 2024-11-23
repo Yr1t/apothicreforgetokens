@@ -1,0 +1,7 @@
+{
+  "item.apotheosis_reforge_token.ancient_token": "Ancient Token",
+  "item.apotheosis_reforge_token.esoteric_token": "Esoteric Token",
+  "item.apotheosis_reforge_token.artifact_token": "Artifact Token",
+  "item.apotheosis_reforge_token.heirloom_token": "Heirloom Token",
+  "item_group.apotheosis_reforge_token.token_creative": "Apotheosis Reforge Tokens"
+}
